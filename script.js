@@ -84,7 +84,7 @@ document
     .addEventListener("click", closeFooterBanner);
 
 // Show the footer banner after a delay of 1 second
-setTimeout(showFooterBanner, 1000);
+setTimeout(showFooterBanner, 5000);
 
 // Show the top banner after a delay of 2 seconds
 setTimeout(showTopBanner, 2000);
@@ -108,3 +108,7 @@ function clearData(){
 }
 
 document.getElementById("clear").addEventListener("click",clearData);
+
+
+
+

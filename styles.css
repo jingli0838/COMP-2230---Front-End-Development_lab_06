@@ -7,6 +7,26 @@
     z-index: 1000;
 }
 
+.banner {
+    height: 100px;
+    animation-name: footbanner;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    bottom: -100px;
+}
+
+@keyframes footbanner {
+    0%  {top: 800px;}
+    10% {top: 400px;}
+    90% {top: 600px;}
+    100% {top: 800px;}  
+}
+
+
 #top-banner {
     top: -50px;
     transition: top 2s;
